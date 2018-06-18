@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTest.UI", "MVCTest_Rafat\MVCTest.UI.csproj", "{F92F2A94-81F1-4D31-9194-6473B5C69F50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTest.DAL", "MVCTest.DAL\MVCTest.DAL.csproj", "{730703D8-5601-4D02-B4FC-557745DB3A9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTest.BLL", "MVCTest.BIL\MVCTest.BLL.csproj", "{2B9DEF3B-FE6A-4581-8FCB-8FC773C75E92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F92F2A94-81F1-4D31-9194-6473B5C69F50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F92F2A94-81F1-4D31-9194-6473B5C69F50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F92F2A94-81F1-4D31-9194-6473B5C69F50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F92F2A94-81F1-4D31-9194-6473B5C69F50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{730703D8-5601-4D02-B4FC-557745DB3A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{730703D8-5601-4D02-B4FC-557745DB3A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{730703D8-5601-4D02-B4FC-557745DB3A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{730703D8-5601-4D02-B4FC-557745DB3A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B9DEF3B-FE6A-4581-8FCB-8FC773C75E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B9DEF3B-FE6A-4581-8FCB-8FC773C75E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B9DEF3B-FE6A-4581-8FCB-8FC773C75E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B9DEF3B-FE6A-4581-8FCB-8FC773C75E92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

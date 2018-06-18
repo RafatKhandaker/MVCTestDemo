@@ -1,0 +1,53 @@
+﻿@using MVCTest.DAL.Models
+@model IEnumerable<MVCTest.DAL.Models.FundModel>
+
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+@Styles.Render("~/Content/home_index.css");
+
+<div class="jumbotron">
+    <div class="search-container">
+        <form action="/Home/Index" method="post">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit">GO<i class="fa fa-search"></i></button>
+        </form>
+    </div>
+</div>
+
+<h2>Review Funds</h2>
+
+<table>
+    <tr>
+        <th>Fund Name</th>
+        <th>Ticket</th>
+        <th>Morningstar</th>
+        <th>1 Mo</th>
+        <th>3 Mo</th>
+        <th>1 Yr</th>
+        <th>5 Mo</th>
+        <th>Inception To Date</th>
+    </tr>
+    @foreach (MVCTest.DAL.Models.FundModel m in Model)
+    {
+        <tr>
+            <td>@m.FundName</td>
+            <td>@m.Ticket</td>
+            <td>@m.MorningStar</td>
+            <td>@m.OneMo</td>
+            <td>@m.ThirdMo</td>
+            <td>@m.OneYr</td>
+            <td>@m.FiveYr</td>
+            <td>@m.InceptionToDate</td>
+        </tr>
+    }
+    
+  
+</table>
+
+<div class="buttons">
+    <asp:Button ID="prevBtn" OnClick="prevBtn_Click" runat="server" Text="<Prev" />
+    <asp:Button ID="nextBtn" OnClick="nextBtn_Click" runat="server" Text="Next>" />
+</div>
