@@ -5,3 +5,10 @@ C:\Users\Dave\Documents\Visual Studio 2015\Projects\MVCTest_Rafat\MVCTest.BIL\bi
 C:\Users\Dave\Documents\Visual Studio 2015\Projects\MVCTest_Rafat\MVCTest.BIL\obj\Debug\MVCTest.BLL.csprojResolveAssemblyReference.cache
 C:\Users\Dave\Documents\Visual Studio 2015\Projects\MVCTest_Rafat\MVCTest.BIL\obj\Debug\MVCTest.BIL.dll
 C:\Users\Dave\Documents\Visual Studio 2015\Projects\MVCTest_Rafat\MVCTest.BIL\obj\Debug\MVCTest.BIL.pdb
+C:\Users\SysAdmin\GitProjects\MVCTestDemo\MVCTest.BIL\bin\Debug\MVCTest.BIL.dll
+C:\Users\SysAdmin\GitProjects\MVCTestDemo\MVCTest.BIL\bin\Debug\MVCTest.BIL.pdb
+C:\Users\SysAdmin\GitProjects\MVCTestDemo\MVCTest.BIL\bin\Debug\MVCTest.DAL.dll
+C:\Users\SysAdmin\GitProjects\MVCTestDemo\MVCTest.BIL\bin\Debug\MVCTest.DAL.pdb
+C:\Users\SysAdmin\GitProjects\MVCTestDemo\MVCTest.BIL\obj\Debug\MVCTest.BLL.csprojResolveAssemblyReference.cache
+C:\Users\SysAdmin\GitProjects\MVCTestDemo\MVCTest.BIL\obj\Debug\MVCTest.BIL.dll
+C:\Users\SysAdmin\GitProjects\MVCTestDemo\MVCTest.BIL\obj\Debug\MVCTest.BIL.pdb

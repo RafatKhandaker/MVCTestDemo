@@ -4,3 +4,9 @@ C:\Users\Dave\Documents\Visual Studio 2015\Projects\MVCTest_Rafat\MVCTest.DAL\bi
 C:\Users\Dave\Documents\Visual Studio 2015\Projects\MVCTest_Rafat\MVCTest.DAL\bin\Debug\System.Configuration.ConfigurationManager.dll
 C:\Users\Dave\Documents\Visual Studio 2015\Projects\MVCTest_Rafat\MVCTest.DAL\obj\Debug\MVCTest.DAL.dll
 C:\Users\Dave\Documents\Visual Studio 2015\Projects\MVCTest_Rafat\MVCTest.DAL\obj\Debug\MVCTest.DAL.pdb
+C:\Users\SysAdmin\GitProjects\MVCTestDemo\MVCTest.DAL\bin\Debug\MVCTest.DAL.dll
+C:\Users\SysAdmin\GitProjects\MVCTestDemo\MVCTest.DAL\bin\Debug\MVCTest.DAL.pdb
+C:\Users\SysAdmin\GitProjects\MVCTestDemo\MVCTest.DAL\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\SysAdmin\GitProjects\MVCTestDemo\MVCTest.DAL\obj\Debug\MVCTest.DAL.csprojResolveAssemblyReference.cache
+C:\Users\SysAdmin\GitProjects\MVCTestDemo\MVCTest.DAL\obj\Debug\MVCTest.DAL.dll
+C:\Users\SysAdmin\GitProjects\MVCTestDemo\MVCTest.DAL\obj\Debug\MVCTest.DAL.pdb

@@ -17,7 +17,7 @@ namespace MVCTest_Rafat.Controllers
         [HttpPost]
         public ActionResult Index(string search) 
         {
-            IEnumerable<FundModel> modelList = new DataRetriever().RetrieveDataBySearch(search);
+            IEnumerable<FundModel> modelList = new DataRetriever().RetrieveDataBySearch( search );
             return View( modelList );
         }
 
