@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<body ng-app="sampleDirective">
+    <!--  Scope: {'@ = single databind' | '=  is two way databind' | $} -->
+<script>
+
+    var app = angular.module("myApp", []);
+
+    app.directive("sampleDirective", function () {
+        var dir = {};
+        dir.template = '<h1> This is cust dir </h1>';
+        dir.restrict = "AE";
+        return dir;
+    });
+
+    app.controller("myCntrol", function ($scope) {
+        $scope.msg = "Hello";
+        
+    });
+
+</script>
+
+</body>
+
+@Scripts.Render("https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js");

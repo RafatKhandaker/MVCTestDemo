@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>To Do List</title>
+    <script src="Scripts/angular.js"></script>
+    <script src="Scripts/angular-route.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body ng-app="myApp">
+    <div>
+        <div class="container">
+            <div>
+                <a class="btn btn-primary" href="/" role="button">List</a>
+            </div>
+            <div>
+                <a class="btn btn-success" href="/add" role="button">Add Task</a>
+            </div>
+
+            <div ng-view style="margin: 100px 200px"></div>
+        </div>
+    </div>
+
+    <form ng-submit="submitForm(form)">
+        <div class="form-group">
+            <label for="taskID">Task ID:</label>
+            <input type="text" id="taskID" value="" ng-model="form.TaskID" placeholder="Task ID" required />
+        </div>
+        <div class="form-group">
+            <label for="taskName">Task Name:</label>
+            <input type="text" id="taskName" value="" ng-model="form.TaskName" placeholder="Task Name" required />
+        </div>
+        <div class="form-group">
+            <label for="date">Date:</label>
+            <input type="text" id="date" value="" ng-model="form.Date" placeholder="mm-dd-yyyy" required />
+        </div>
+        <div class="form-group">
+            <label for="priority">Priority:</label>
+            <select ng-model="form.Priority">
+                <option value="High">High</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="status">Status:</label>
+            <select ng-model="form.Status">
+                <option value="Pending">Pending</option>
+                <option value="Completed">Completed</option>
+            </select>
+        </div>
+        <input type="submit" value="Add a new task" />
+    </form>
+</body>
+</html>

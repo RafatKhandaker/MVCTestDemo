@@ -84,3 +84,4 @@ C:\Users\Dave\Documents\Visual Studio 2015\Projects\MVCTest_Rafat\MVCTest_Rafat\
 C:\Users\Dave\Documents\Visual Studio 2015\Projects\MVCTest_Rafat\MVCTest_Rafat\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Dave\Documents\Visual Studio 2015\Projects\MVCTest_Rafat\MVCTest_Rafat\obj\Debug\MVCTest_Rafat.dll
 C:\Users\Dave\Documents\Visual Studio 2015\Projects\MVCTest_Rafat\MVCTest_Rafat\obj\Debug\MVCTest_Rafat.pdb
+C:\Users\Dave\documents\visual studio 2015\Projects\MVCTest_Rafat\MVCTest_Rafat\bin\System.Runtime.InteropServices.RuntimeInformation.dll
