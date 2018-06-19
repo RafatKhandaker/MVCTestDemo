@@ -11,14 +11,14 @@ namespace MVCTest_Rafat.Controllers
         public ActionResult Index()
         {
             IEnumerable<FundModel> modelList = new DataRetriever().RetrieveAllFunds_Data();
-            return View( modelList );
+            return View(modelList);
         }
 
         [HttpPost]
-        public ActionResult Index(string search) 
+        public JsonResult SearchIndex(string search)
         {
-            IEnumerable<FundModel> modelList = new DataRetriever().RetrieveDataBySearch( search );
-            return View( modelList );
+            IEnumerable<FundModel> modelList = new DataRetriever().RetrieveDataBySearch(search);
+             return Json(modelList);
         }
 
     }

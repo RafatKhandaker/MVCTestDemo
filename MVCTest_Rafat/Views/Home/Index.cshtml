@@ -10,16 +10,16 @@
 
 <div class="jumbotron">
     <div class="search-container">
-        <form action="/Home/Index" method="post">
+       <!-- <form action="/Home/Index" method="post"> -->
             <input type="text" placeholder="Search.." name="search">
-            <button type="submit">GO<i class="fa fa-search"></i></button>
-        </form>
+            <button id="searchBtn" type="submit">GO<i class="fa fa-search"></i></button>
+       <!-- </form> -->
     </div>
 </div>
 
 <h2>Review Funds</h2>
 
-<table>
+<table id="data-table">
     <tr>
         <th>Fund Name</th>
         <th>Ticket</th>
@@ -51,3 +51,6 @@
     <asp:Button ID="prevBtn" OnClick="prevBtn_Click" runat="server" Text="<Prev" />
     <asp:Button ID="nextBtn" OnClick="nextBtn_Click" runat="server" Text="Next>" />
 </div>
+@Scripts.Render("https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js");
+
+@Scripts.Render("~/Scripts/ajax/home_search.js");
